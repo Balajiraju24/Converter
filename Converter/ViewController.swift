@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var inputC: UITextField!
     @IBOutlet weak var outputF: UILabel!
+    //Calculation to convert
     @IBAction func convert(_ sender: Any) {
         var converted = Int(inputC.text!)!
         converted = converted * 9/5 + 32
